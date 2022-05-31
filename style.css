@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	color: white;
+	font-family: Gotham, "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	font-size: 12px;
+	}
+	
+	h1 {
+		padding-bottom: 10px;
+		padding-top: 15px;
+		font-family: 'Big Shoulders Display', cursive;
+		font-size: 300%;
+	}
+	
+	p {
+		line-height: 22px;
+	}
+
+	.mainContainer {
+		background-color:white;
+		padding-top: 5%;
+		width:90%;
+		box-shadow: 1px 15px 70px 1px grey;
+		margin-left:4%;
+	}
+	
+	.container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		width: 70%;
+		padding-left: 15%;
+	}	
+	
+	.columnOne {
+		background-color: hsl(31, 77%, 52%);
+		padding: 10%;
+	}
+	
+	.columnTwo {
+		background-color: hsl(184, 100%, 22%);
+		padding: 10%;
+	}
+	.columnThree {
+		background-color: hsl(179, 100%, 13%);
+		padding: 10%;
+	}
+	
+	.button {
+		border-radius: 20px;
+		border: none;
+		padding: 10px;
+		width: 70%;
+	}
+	
+	.buttonOne:hover {
+		border: solid;
+		border-width: 2px;
+		border-color: white;
+		background-color: hsl(31, 77%, 52%);
+		color: white;			
+	}
+	
+	.buttonTwo:hover {
+		border: solid;
+		border-width: 2px;
+		border-color: white;
+		background-color: hsl(184, 100%, 22%);
+		color: white;
+			
+	}
+	
+	.buttonThree:hover {
+		border: solid;
+		border-width: 2px;
+		border-color: white;
+		background-color: hsl(179, 100%, 13%);
+		color: white;
+	}
+	
+	
+	.buttonOne {
+		color: hsl(31, 77%, 52%);
+	}
+	
+	.buttonTwo {
+		color: hsl(184, 100%, 22%);
+	}
+	
+	.buttonThree {
+		color: hsl(179, 100%, 13%);
+	}
+	
+
+	
+	.buttonContainer {
+		padding-top: 50px;
+	}
+	
+	.attribution {
+		color: black;
+		padding-top: 5%;
+		padding-bottom: 2%;
+		text-align: center;
+	}
+	
+
+/*MOBILE CODE*/
+	.containerMobile {
+		width: 95%;
+		align-content: center;
+		padding: 2%;
+	}
+	
+.columnOneMobile {
+		background-color: hsl(31, 77%, 52%);
+		padding: 10%;
+	}
+	
+	.columnTwoMobile {
+		background-color: hsl(184, 100%, 22%);
+		padding: 10%;
+	}
+	.columnThreeMobile {
+		background-color: hsl(179, 100%, 13%);
+		padding: 10%;
+	}
+	
+	.buttonMobile {
+		border-radius: 20px;
+		border: none;
+		margin-top: 6%;
+		padding: 10px;
+		width: 55%;
+	}
+
+.attributionMobile {
+	color: black;
+	padding-left: 10%;
+}
+	
+
+/*Desktop & Tablet*/ 
+@media (min-width: 376px) and (max-width: 3000px) { 
+.containerMobile {
+		display: none;
+	}
+	.attributionMobile {
+		display:none;
+	}
+}
+	
+/*Mobile*/ 
+@media (min-width: 100px) and (max-width: 375px) { 
+.mainContainer {
+		display: none !important;
+	}
+	
+
+	}
